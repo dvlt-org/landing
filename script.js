@@ -8,6 +8,6 @@ const menuIcon = document.querySelector(".menu-icon"),
 menuIcon.addEventListener("click", () => navbarNav.style.display = "flex");
 quitIcon.addEventListener("click", () => navbarNav.style.display = "none");
 window.addEventListener("scroll", () => {
-    window.scrollY > 0 ? (scrollButton.style.opacity = "1", navbar.style.backgroundColor = "white") : console.log("white");
+    window.scrollY > 0 ? (scrollButton.style.opacity = "1", navbar.style.backgroundColor = "white") : null;
 });
 priceButton.addEventListener("click", () => alert("Message"));
